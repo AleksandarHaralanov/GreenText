@@ -1,5 +1,5 @@
 main: me.beezle.greentext.Greentext
-version: 1.0
+version: 1.0.0
 name: Greentext
 authors: [Beezle]
 description: Players can write like the 4chan greentext.
