@@ -2,9 +2,9 @@ main: me.beezle.greentext.Greentext
 version: 1.0
 name: Greentext
 authors: [Beezle]
-description: Players can make 4chan-like greentext messages.
+description: Players can write like the 4chan greentext.
 
 permissions:
   greentext.use:
-    description: Allows the player to make 4chan-like greentext messages.
+    description: Allows the player to make 4chan-style greentext messages.
     default: op
