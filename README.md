@@ -9,6 +9,6 @@ By default, only OPs have permissions.
 Use PermissionsEx or similar plugins to grant groups the permission, enabling the greentext.
 - Command:
     - `/greentext` - Does not require permission - Prints author, version, and a link to this repository.
-- Message starts with:
+- Message must start with:
   - `>` - Requires permission - Colors your entire message in green.
 - Permission: `greentext.write`
