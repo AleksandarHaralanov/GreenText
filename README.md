@@ -7,5 +7,9 @@ Players can write 4chan-style greentext messages.
 By default, only OPs have permissions. 
 
 Use PermissionsEx or similar plugins to grant groups the permission, enabling the greentext.
-- Message Start: ```>```
-- Permission: ```greentext.write```
+- Command:
+    - `/greentext` - Prints author, version, and a link to this repository.
+
+
+- Chat message must start with: `>`
+- Permission: `greentext.write`
