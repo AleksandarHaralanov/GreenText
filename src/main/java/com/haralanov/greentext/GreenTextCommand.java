@@ -2,6 +2,7 @@ package com.haralanov.greentext;
 
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.command.Command;
 import org.bukkit.entity.Player;
 import org.bukkit.ChatColor;
 
@@ -22,7 +23,7 @@ public class GreenTextCommand implements CommandExecutor {
     }
 
     @Override
-    public boolean onCommand(CommandSender commandSender, org.bukkit.command.Command command, String s, String[] strings) {
+    public boolean onCommand(final CommandSender commandSender, final Command command, final String s, final String[] strings) {
         final Player player = (commandSender instanceof Player) ? (Player) commandSender : null;
 
         if (player != null) {
