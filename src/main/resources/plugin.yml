@@ -1,10 +1,15 @@
-main: me.beezle.greentext.Greentext
-version: 1.0.0
-name: Greentext
-authors: [Beezle]
-description: Players can write like the 4chan greentext.
+main: com.haralanov.greentext.GreenText
+version: 2.0.0
+name: GreenText
+author: Beezle
+website: github.com/AleksandarHaralanov/GreenText
+description: Players can write 4chan-style greentext messages.
 
 permissions:
-  greentext.use:
-    description: Allows the player to make 4chan-style greentext messages.
-    default: op
+  greentext.write:
+    description: Allows the players to write 4chan-style greentext messages.
+
+commands:
+  greentext:
+    description: See info about the GreenText plugin.
+    usage: /<command>
